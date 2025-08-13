@@ -11,3 +11,6 @@ wheels/
 
 # Resources
 **/resources/*
+
+# Results
+**/results/*
