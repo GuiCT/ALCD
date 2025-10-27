@@ -1,0 +1,13 @@
+{
+"version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Manim File",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "manim",
+            "args": ["${file}", "-pql", "--renderer=opengl"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
