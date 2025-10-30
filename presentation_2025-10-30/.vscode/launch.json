@@ -8,6 +8,19 @@
             "module": "manim",
             "args": ["${file}", "-pql", "--renderer=opengl"],
             "console": "integratedTerminal"
+        },
+        {
+            "name": "ManimGL: Render Scene (Debug)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "manimlib",
+            "args": [
+                "${workspaceFolder}/presentationgl.py",
+                "KernelPCAOverview"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false
         }
     ]
 }
