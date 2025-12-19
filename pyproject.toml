@@ -23,3 +23,8 @@ dependencies = [
     "scipy>=1.16.1",
     "setuptools>=80.9.0",
 ]
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.36.1",
+]
